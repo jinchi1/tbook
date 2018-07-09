@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingTop="9dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="47dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="11dp">
+            <ImageView
+                android:layout_width="47dp"
+                android:layout_height="55dp"
+                android:src="@drawable/news_face"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:id="@+id/news_pager_row_profile_img2"
+                />
+            <ImageView
+                android:layout_width="47dp"
+                android:layout_height="55dp"
+                android:background="@drawable/profile_image_prame_white"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/news_pager_content_row_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="14dp"
+                tools:text="AB님이 CD님의 게시물을 좋아합니다."/>
+
+            <TextView
+                android:id="@+id/news_pager_regdate_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CCCCCC"
+                android:textSize="12dp"
+                android:text="1시간 전"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/photo_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="71dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <ImageView
+            android:id="@+id/news_pager_row_img12"
+            android:layout_width="42.5dp"
+            android:layout_height="42.5dp"
+            android:layout_marginRight="3dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/news_pager_row_img22"
+            android:layout_width="42.5dp"
+            android:layout_height="42.5dp"
+            android:layout_marginRight="3dp"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/news_pager_row_img32"
+            android:layout_width="42.5dp"
+            android:layout_height="42.5dp"
+            android:layout_marginRight="3dp"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/color_cdcdcd" />
+</LinearLayout>

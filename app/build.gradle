@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.travelbooks3.android"
+        minSdkVersion 16
+        targetSdkVersion 22
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            buildConfigField "boolean", "isLogin", " true"
+            buildConfigField "String", "SERVER_URL", "\"http://192.168.0.6:8080\""
+//            buildConfigField "String","SERVER_IMG_URL","\"http://192.168.0.6:8080\""
+//            buildConfigField "String", "SERVER_URL", "\"http://www.travelbooks2.com\""
+            buildConfigField "String", "SERVER_IMG_URL", "\"http://www.travelbooks2.com\""
+
+        }
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            buildConfigField "boolean", "isLogin", "false"
+            buildConfigField "String", "SERVER_URL", "\"http://www.travelbooks2.com\""
+            buildConfigField "String", "SERVER_IMG_URL", "\"http://www.travelbooks2.com\""
+        }
+
+        lintOptions {
+            checkReleaseBuilds false
+        }
+    }
+    packagingOptions{
+        exclude 'META-INF/rxjava.properties'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //외부라이브러리
+    compile files('libs/geniusnetwork.jar')
+    //    compile files('libs/universal-image-loader-1.9.5.jar')
+    compile files('libs/commons-httpclient-3.0.1.jar')
+    //    compile 'com.github.bumptech.glide:glide:4.0.0-RC1'
+    compile 'com.android.support:support-v4:25.3.1'
+    //    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.google.android.gms:play-services-maps:11.0.0'
+    compile 'com.google.android.gms:play-services-location:11.0.0'
+    compile 'com.google.android.gms:play-services-places:11.0.0'
+    compile 'com.google.firebase:firebase-core:11.0.0'
+    //10.2.6
+    compile 'com.google.firebase:firebase-messaging:11.0.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.github.bumptech.glide:glide:3.8.0'
+    compile 'in.srain.cube:grid-view-with-header-footer:1.0.12'
+    testCompile 'junit:junit:4.12'
+    ////////////////////////////////////
+    compile project(':multipleImagePickerLib')
+    compile project(':timer')
+    compile 'com.pl:wheelview:0.7.2'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+
+}
+
+apply plugin: 'com.google.gms.google-services'

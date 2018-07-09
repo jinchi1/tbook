@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/friend_lay"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+   >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_friend_recommand_list"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/white_shadow"
+        />
+
+
+</LinearLayout>

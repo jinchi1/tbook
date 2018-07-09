@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_base">
+
+    <FrameLayout
+        android:id="@+id/main_base_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#f7f7f7"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/base_bottm_menu"
+        android:background="@color/color_c9c9c9" />
+
+    <LinearLayout
+        android:id="@+id/base_bottm_menu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btnMenu01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnImg1"
+                android:layout_width="25dp"
+                android:layout_height="25.5dp"
+                android:layout_weight="1.26"
+                android:src="@drawable/s_btn_tab_01" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnMenu02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnImg2"
+                android:layout_width="25.5dp"
+                android:layout_height="25.5dp"
+                android:layout_weight="1"
+                android:src="@drawable/s_btn_tab_02" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnMenu03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnImg3"
+                android:layout_width="25.5dp"
+                android:layout_height="25.5dp"
+                android:layout_weight="1"
+                android:src="@drawable/s_btn_tab_03" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnMenu04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="25.5dp"
+                android:layout_height="25.5dp">
+                <ImageView
+                    android:id="@+id/btnImg4"
+                    android:layout_width="25.5dp"
+                    android:layout_height="25.5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/s_btn_tab_04" />
+                <TextView
+                    android:id="@+id/push_txt"
+                    android:layout_width="25.5dp"
+                    android:layout_height="25.5dp"
+                    android:text="N"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textColor="#d92051"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnMenu05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btnImg5"
+                android:layout_width="25.5dp"
+                android:layout_height="25.5dp"
+                android:layout_weight="1"
+                android:src="@drawable/s_btn_tab_05" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout><!--</android.support.design.widget.CoordinatorLayout>-->

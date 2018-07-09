@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.travelbooks3.android.activity.write.WriteActivity"
+    >
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <TextView
+                android:id="@+id/txt_new_trip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/txt_1000"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+               />
+
+
+            <TextView
+                android:id="@+id/write_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="17dp"
+                android:background="@color/colorPrimary"
+                android:textSize="16dp"
+                android:text="공유하기" />
+
+
+
+        </RelativeLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_marginTop="42dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/write_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="android.travelbooks2.com.com.travelbooks2.com.atv.write.WriteActivity"
+            tools:showIn="@layout/activity_write">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/write_new_viewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:layout_marginBottom="5.5dp"
+                        android:layout_marginTop="5.5dp"
+                        android:clipToPadding="false"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:layout_weight="4"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true">
+
+                        <ImageView
+                            android:id="@+id/TextView_background_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/write_box_border"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="32.5dp" />
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="65dp"
+                            android:orientation="horizontal"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentTop="true">
+
+                            <ImageView
+                                android:id="@+id/marker_image"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/write_box_border2"
+                                android:padding="10dp"
+                                android:src="@drawable/map_pin_grey"
+                                />
+
+                            <ImageView
+                                android:layout_width="10.5dp"
+                                android:layout_height="match_parent" />
+
+                            <ImageView
+                                android:id="@+id/trans_image"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/write_box_border2"
+                                android:outlineProvider="bounds"
+                                android:padding="10dp"
+                                android:src="@drawable/choice_transport"/>
+
+                            <ImageView
+                                android:layout_width="10.5dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:id="@+id/time_lay"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:background="@drawable/write_box_border2">
+                                <TextView
+                                    android:id="@+id/hour_txt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="0h"
+                                    android:gravity="center|bottom"
+                                    android:textSize="18dp"
+                                    android:textColor="#CCCCCC"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/minute_txt"
+                                    android:layout_weight="1"
+                                    android:text="0m"
+                                    android:gravity="center|top"
+                                    android:textSize="18dp"
+                                    android:textColor="#CCCCCC"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/Edt_comment"
+                            android:layout_width="match_parent"
+                            android:layout_height="160dp"
+                            android:background="@drawable/write_box_border2"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:hint="게시글을 입력해 주세요"
+                            android:textColorHint="#CCCCCC"
+                            android:gravity="top"
+                            android:padding="10dp"
+                            android:maxLength="200"
+                            />
+
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:gravity="center"
+                        >
+
+                        <TextView
+                            android:id="@+id/preview_txt"
+                            android:layout_width="180dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/write_box_border"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="#FFFFFF"
+                            android:text="미리보기"
+                            android:gravity="center"
+                            android:textSize="16dp"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

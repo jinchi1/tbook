@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Y-Photo Picker</string>
+
+    <string name="y_photopicker_image_select_title">Select Image</string>
+    <string name="y_photopicker_delete">Delete</string>
+    <string name="y_photopicker_effect">Crop</string>
+    <string name="y_photopicker_done">Done</string>
+    <string name="y_photopicker_done_with_count">Done(%1$d/%2$d)</string>
+    <string name="y_photopicker_image_index">%1$d/%2$d</string>
+    <string name="y_photopicker_undo">Cancel</string>
+    <string name="y_photopicker_deleted_a_photo">This photo has been deleted.</string>
+    <string name="y_photopicker_confirm_to_delete">Delete?</string>
+    <string name="y_photopicker_yes">Yes</string>
+    <string name="y_photopicker_cancel">No</string>
+    <string name="y_photopicker_all_image">All</string>
+    <string name="y_photopicker_over_max_count_tips">You can select up to %1$d</string>
+    <string name="y_photopicker_image_count">%1$d</string>
+
+    <!-- ucrop -->
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_label_edit_photo">Edit Photo</string>
+    <string name="ucrop_menu_crop">Crop</string>
+    <string name="ucrop_error_input_data_is_absent">Both input and output Uri must be specified</string>
+</resources>

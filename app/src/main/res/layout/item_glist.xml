@@ -1,0 +1,77 @@
+<com.travelbooks3.android.view.SliderListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliderList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.travelbooks3.android.view.GListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#ffeeeeee"
+            android:dividerHeight="1dp"
+            android:listSelector="#0000" />
+
+        <com.travelbooks3.android.view.GMultiListView
+                android:id="@+id/multiList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#0000"
+                android:visibility="gone"
+                android:dividerHeight="0dp"
+                android:listSelector="#0000" />
+        
+        <LinearLayout
+            android:id="@+id/baseNoData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/list"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/txtNoData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:text="@string/txt_no_data"
+                android:textColor="#ff9e9e9e"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="bottom|center_horizontal" >
+
+        <TextView
+            android:id="@+id/txtMessage01"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="당기면 새로고침 합니다." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="top|center_horizontal" >
+
+        <TextView
+            android:id="@+id/txtMessage02"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="당기면 새로고침 합니다." />
+    </LinearLayout>
+
+</com.travelbooks3.android.view.SliderListView>

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:padding="4dp"
+    android:paddingBottom="0dp"
+    android:id="@+id/frame_lay"
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/swipe_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:paddingLeft="00dp"
+        android:paddingRight="00dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="2dp"
+        android:background="@drawable/final_feed_border"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingRight="0dp"
+            android:paddingLeft="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_marginRight="5dp"
+                android:layout_width="30.5dp"
+                android:layout_height="35.5dp">
+
+                <ImageView
+                    android:id="@+id/profile_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/home_partner"
+
+                    />
+
+                <ImageView
+                    android:layout_width="35.5dp"
+                    android:layout_height="35.5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/profile_image_prame_white"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+
+                    android:id="@+id/name_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_3f3f3f"
+                    android:textSize="14dp"
+                    android:text="GaNa.Kim" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/time_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/color_8c8c8c"
+                android:textSize="11dp"
+                android:text="5시간 전" />
+
+            <RelativeLayout
+                android:id="@+id/more_lay"
+                android:layout_width="32.5dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="3.5dp"
+                    android:layout_height="18dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="7dp"
+                    android:src="@drawable/written_option" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/image_viewPager"
+                android:layout_width="400dp"
+                android:layout_height="400dp" />
+            <ImageView
+                android:id="@+id/image_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <!--<ImageView-->
+                <!--android:layout_width="7dp"-->
+                <!--android:layout_height="7dp"-->
+                <!--android:src="@drawable/written_photo_dot"/>-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/root_indicator_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <!--<ImageView-->
+                <!--android:layout_width="7dp"-->
+                <!--android:layout_height="7dp"-->
+                <!--android:src="@drawable/written_photo_dot"/>-->
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <!--<ImageView-->
+                <!--android:layout_width="7dp"-->
+                <!--android:layout_height="7dp"-->
+                <!--android:src="@drawable/written_photo_dot"/>-->
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/write_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/color_3f3f3f"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:text="Heeram_park"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/write_content_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:maxLines="2"
+                    android:textColor="@color/color_3f3f3f"
+                    android:scrollHorizontally="false"
+                    android:scrollbars="none"
+                    android:textSize="12dp"
+                    android:ellipsize="none"
+                    android:text="Kimffffffffffffffff"
+                    />
+                <TextView
+                    android:id="@+id/more_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_marginRight="3dp"
+                    android:textColor="#CCCCCC"
+                    android:textSize="12dp"
+                    android:text="...more"
+                    android:visibility="gone"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/more_txt_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone"
+           >
+
+            <TextView
+                android:id="@+id/write_name_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/color_3f3f3f"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:text="Heeram_park"
+                android:visibility="invisible"
+                />
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:src="@drawable/line"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/like_lay"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/like"
+                    android:layout_width="25dp"
+                    android:layout_height="24.5dp"
+                    android:src="@drawable/heart"
+                     />
+
+                <TextView
+                    android:id="@+id/like_written_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="10dp"
+                    android:text="0"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#6666" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/bookmark_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/bookmark"
+                        android:layout_width="25dp"
+                        android:layout_height="24.5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/info_bookmark" />
+
+                    <TextView
+                        android:id="@+id/bookmark_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_marginLeft="7dp"
+                        android:text="115"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp">
+
+        <RelativeLayout
+            android:layout_width="28.5dp"
+            android:layout_height="28.5dp">
+
+            <ImageView
+                android:id="@+id/profile_img"
+                android:layout_width="28.5dp"
+                android:layout_height="31.5dp"
+                android:background="@drawable/written_face" />
+
+            <ImageView
+                android:layout_width="28.5dp"
+                android:layout_height="31.5dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:textColor="@color/color_3f3f3f"
+            android:textSize="14dp"
+            tools:text="GaNa.Kim" />
+
+        <TextView
+            android:id="@+id/time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/color_8c8c8c"
+            android:textSize="11dp"
+            tools:text="5시간 전" />
+
+        <RelativeLayout
+            android:id="@+id/more_lay"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="3.5dp"
+                android:layout_height="18dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/written_option" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/image_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:id="@+id/root_indicator_lay"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        &lt;!&ndash;<ImageView&ndash;&gt;
+        &lt;!&ndash;android:layout_width="7dp"&ndash;&gt;
+        &lt;!&ndash;android:layout_height="7dp"&ndash;&gt;
+        &lt;!&ndash;android:src="@drawable/written_photo_dot"/>&ndash;&gt;
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/like_chk"
+            android:layout_width="15dp"
+            android:layout_height="14dp"
+            android:background="@drawable/written_like"
+            android:button="@null" />
+
+        <TextView
+            android:id="@+id/like_written_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:text="0"
+            android:textColor="@color/color_3f3f3f"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="16dp"
+            android:src="@drawable/written_reply" />
+
+        <TextView
+            android:id="@+id/reply_written_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:text="0"
+            android:textColor="@color/color_3f3f3f"
+            android:textSize="12dp" />
+
+        <CheckBox
+            android:id="@+id/bookmark_chk"
+            android:layout_width="16dp"
+            android:layout_height="15dp"
+            android:background="@drawable/written_bookmark_checkbox"
+            android:button="@null" />
+
+        <TextView
+            android:id="@+id/bookmark_written_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:text="0"
+            android:textColor="@color/color_3f3f3f"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        &lt;!&ndash;<TextView&ndash;&gt;
+            &lt;!&ndash;android:id="@+id/write_name_txt"&ndash;&gt;
+            &lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;
+            &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;
+            &lt;!&ndash;android:layout_marginRight="3dp"&ndash;&gt;
+            &lt;!&ndash;android:textColor="@color/color_3f3f3f"&ndash;&gt;
+            &lt;!&ndash;android:textSize="14dp"&ndash;&gt;
+            &lt;!&ndash;android:textStyle="bold"&ndash;&gt;
+            &lt;!&ndash;tools:text="KimGaNa" />&ndash;&gt;
+
+        <TextView
+            android:id="@+id/write_content_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/color_3f3f3f"
+            android:textSize="14dp"
+            tools:text="KimGaNaKimGaNaKimGaNaKimGaNaKimGaNaKimGaNaKimGaNaKimGaNaKimGaNaKimGaNaKimGaNaKimGaNa" />
+    </LinearLayout>
+
+    <include layout="@layout/header_trip_comment" />
+</LinearLayout>
+-->

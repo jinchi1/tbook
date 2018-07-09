@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.travelbooks3.android.activity.info.setting.AtvSetting">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
+
+            <ImageView
+                android:layout_width="110.5dp"
+                android:layout_height="16.5dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/home_logo" />
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<include layout="@layout/content_atv_setting" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="@color/color_f4f4f4"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="친구찾기/초대하기"
+                android:textColor="@drawable/color_gray2"
+                android:textSize="11dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_d5d5d5" />
+
+            <LinearLayout
+                android:id="@+id/setting_main_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="41.5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="14dp">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="17.5dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/my_menu_list_facebook" />
+
+                <TextView
+                    android:id="@+id/txtFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Facebook 친구"
+                    android:textColor="@drawable/color_black2"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="12dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/my_menu_list_more" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="41.5dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="14dp">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/my_menu_list_face"
+                    android:layout_marginRight="12dp"/>
+
+                <TextView
+                    android:id="@+id/txtSearchContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="연락처"
+                    android:textColor="@drawable/color_black2"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="12dp"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/my_menu_list_more" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="계정"
+                android:background="@color/color_f4f4f4"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtSettingProfile"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="프로필 편집"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <TextView
+                android:id="@+id/txtPwUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="비밀번호 변경하기"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <TextView
+                android:id="@+id/txtLikePost"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="top"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="회원님이 좋아한 게시물"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <TextView
+                android:id="@+id/txtBlockedUsers"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="top"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="차단 회원"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <TextView
+                android:id="@+id/txtPrivacyAccount"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="비공개 계정"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="설정"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:background="@color/color_f4f4f4"/>
+
+            <TextView
+                android:id="@+id/txtConnectAccount"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="연결된 계정"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+
+            <TextView
+                android:id="@+id/txtPushNotice"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="푸시 알림"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <TextView
+                android:id="@+id/txtClearSearch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="검색 내역 지우기"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="고객지원"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:background="@color/color_f4f4f4"/>
+
+            <TextView
+                android:id="@+id/txtPrivacyRule"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="개인정보취급방침"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+
+            <TextView
+                android:id="@+id/txtLocationRule"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableRight="@drawable/my_menu_list_more"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="위치기반서비스 이용약관"
+                android:textColor="@drawable/color_black2"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/color_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    android:id="@+id/Logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/txt_114"
+                    android:textColor="@drawable/color_red"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/expire_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="탈퇴하기"
+                    android:textColor="#CCCCCC"
+                    android:textSize="15dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/color_gray" />
+        </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

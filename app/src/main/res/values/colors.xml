@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d92051</color>
+    <color name="colorPrimaryDark">#d92051</color>
+    <color name="colorAccent">#d92051</color>
+
+    <drawable name="color_white">#ffffffff</drawable>
+    <drawable name="color_mint">#FF3ba699</drawable>
+    <drawable name="color_blue">#ff328dcd</drawable>
+    <drawable name="color_gray">#ffeeeeee</drawable>
+    <drawable name="color_black_sub">#ff7D7D7D</drawable>
+    <drawable name="color_black">#ff595757</drawable>
+    <drawable name="color_black_bg">#ff221814</drawable>
+
+    <drawable name="color_alpha">#ffffffff</drawable>
+    <drawable name="color_line">#ffdfdfdf</drawable>
+    <drawable name="color_black_50">#80000000</drawable>
+    <drawable name="color_clear">#00ffffff</drawable>
+    <drawable name="color_clear_12">#1F000000</drawable>
+
+    <drawable name="color_gray2">#9f9fa0</drawable>
+    <drawable name="color_gray3">#888889</drawable>
+    <drawable name="color_gray4">#dcdcdd</drawable>
+    <drawable name="color_gray5">#b4b5b5</drawable>
+    <drawable name="color_gray_line">#F2F2F2</drawable>
+
+    <drawable name="color_black2">#595757</drawable>
+    <drawable name="color_black3">#221814</drawable>
+
+    <drawable name="color_white2">#fefefe</drawable>
+    <drawable name="color_red">#d80c44</drawable>
+
+    <drawable name="color_red2">#DA567D</drawable>
+
+    <color name="color_4167b2">#4167b2</color>
+    <color name="color_aa4167b2">#aa4167b2</color>
+    <color name="color_3f3f3f">#3f3f3f</color>
+    <color name="color_d92051">#d92051</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_9ea3b0">#9ea3b0</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_e8e8e8">#e8e8e8</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_797979">#797979</color>
+    <color name="color_c9c9c9">#c9c9c9</color>
+
+    <color name="color_b1b3b3">#b1b3b3</color>
+    <color name="color_d1d1d2">#d1d1d2</color>
+
+    <color name="color_d4d3d3">#d4d3d3</color>
+    <color name="color_cdcdcd">#cdcdcd</color>
+    <color name="color_a5a5a5">#a5a5a5</color>
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <color name="color_d5d5d5">#d5d5d5</color>
+    <color name="color_8c8c8c">#8c8c8c</color>
+</resources>

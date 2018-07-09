@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:gravity="center_vertical"
+                android:text="Travelbook Events"
+                android:textColor="#BABABA"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/txtViewAllTop"
+                android:gravity="center_vertical"
+                android:text="View all >"
+                
+                android:textColor="#BABABA"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/scrollTop"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" >
+
+            <LinearLayout
+                android:id="@+id/baseTopInner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:gravity="center_vertical"
+                android:id="@+id/txtAllCount"
+                android:text="Special Events"
+                android:textColor="#BABABA"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:text="View all >"
+                android:id="@+id/txtViewAllBottom"
+                android:textColor="#BABABA"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/scrollAll"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" >
+
+            <LinearLayout
+                android:id="@+id/baseAllInner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

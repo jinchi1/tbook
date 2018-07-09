@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="com_kakao_alert_appKey">need to declare com.kakao.sdk.AppKey in your AndroidManifest.xml</string>
+    <string name="com_kakao_alert_install_kakaotalk">Please update KakaoTalk to the latest version.</string>
+    <string name="com_kakao_alert_uri_too_long">Failed to send message because it exceeds the message size limit. Please contact the app administrator.</string>
+
+    <string name="kakao_app_key">66da9358c6cd52a30ab7e7fe767ad7ae</string>
+    <string name="kakao_scheme">kakao66da9358c6cd52a30ab7e7fe767ad7ae</string>
+    <string name="kakaolink_host">kakaolink</string>
+
+    <!--<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB736UTK6Qw6vsVhNz-4MYzX1zvy4JVWwU</string>-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB5OQ0Mj9Wmbsj2WS-7bg98S6spZ_1NfCs</string>
+
+
+    <string name="app_name">Travelbook</string>
+    <string name="facebook_app_id">674410489376071</string>
+    <string name="fb_login_protocol_scheme">fb674410489376071</string>
+    <string name="txt_guide_app_finish">\'뒤로\'버튼을 한번 더 누르시면 종료됩니다.</string>
+    <string name="txt_no_data">No data found.</string>
+
+    <string name="hello_world">Hello world</string>
+
+    <string name="txt_001">Enter Your E-mail Address</string>
+    <string name="txt_002">Enter Your Name</string>
+    <string name="txt_003">Enter Your Password (at least 8 characters and )</string>
+    <string name="txt_004">Continue</string>
+    <string name="txt_005">Get started</string>
+    <string name="txt_006">Log in with your TRAVELBOOK Account</string>
+    <string name="txt_007">Welcome to Travelbook! See more of beautiful earth with friends!</string>
+    <string name="txt_008">I forget my ID or Password</string>
+    <string name="txt_009">Sign-up</string>
+    <string name="txt_010">Log in</string>
+    <string name="txt_011">Verify your e-mail account with Travelbook</string>
+    <string name="txt_012">Get started Travelbook</string>
+    <string name="txt_013">Recive a Travelbook Guard code via e-mail</string>
+    <string name="txt_014">Back</string>
+    <string name="txt_015">Travelbook sent a Travelbook Guard code e-mail to this account. Thank you.</string>
+    <string name="txt_016">Travelbook friends</string>
+    <string name="txt_017">Following</string>
+    <string name="txt_018">Unfollow</string>
+    <string name="txt_019">Find your contacts</string>
+    <string name="txt_020">Invite your friends</string>
+    <string name="txt_021">More</string>
+    <string name="txt_022">Grid view</string>
+    <string name="txt_023">Detail view</string>
+    <string name="txt_024">Bookmarks</string>
+    <string name="txt_025">Travelbook View</string>
+    <string name="txt_026">Unfollow OOOO?</string>
+    <string name="txt_027">Cancel</string>
+    <string name="txt_028">Unfollow</string>
+    <string name="txt_029">OOOO\'s official account.</string>
+    <string name="txt_030">Follow Everyone</string>
+    <string name="txt_031">Follow OOOO !</string>
+    <string name="txt_032">Not link your contacts.</string>
+    <string name="txt_033">"You will find friends better as you sync contacts.</string>
+    <string name="txt_034">If you discconected it, your contacts are deleted."</string>
+    <string name="txt_035">Cancel</string>
+    <string name="txt_036">Disconnected/Not linked</string>
+    <string name="txt_037">Report a Problem</string>
+    <string name="txt_038">Share</string>
+    <string name="txt_039">Spam</string>
+    <string name="txt_040">False or misleading contents</string>
+    <string name="txt_041">Sexually suggetive contents</string>
+    <string name="txt_042">Abusive contents</string>
+    <string name="txt_043">Violent contets</string>
+    <string name="txt_044">Selling illegal items</string>
+    <string name="txt_045">Intellectual property rights Infringement</string>
+    <string name="txt_046">Are you reporting it by ~</string>
+    <string name="txt_047">Completed</string>
+    <string name="txt_048">Copy share URL</string>
+    <string name="txt_049">Edit</string>
+    <string name="txt_050">Remove / Delete</string>
+    <string name="txt_051">Confirm Deletion- Delete this photo?- Don\'t delete/ Delete</string>
+    <string name="txt_052">Following</string>
+    <string name="txt_053">News</string>
+    <string name="txt_054">Events</string>
+    <string name="txt_055">Like 00\'s posts</string>
+    <string name="txt_056">like your posts</string>
+    <string name="txt_057">See all of 00 comments</string>
+    <string name="txt_058">\'s post as Bookmark?</string>
+    <string name="txt_059">Travelbook bookmarks</string>
+    <string name="txt_060">All</string>
+    <string name="txt_061">User</string>
+    <string name="txt_062">Tag</string>
+    <string name="txt_063">The latest browsing history</string>
+    <string name="txt_064">commented your post.</string>
+    <string name="txt_065">follow.</string>
+    <string name="txt_066">11 likes 00\'s post.</string>
+    <string name="txt_067">11 commented 00\'s post.</string>
+    <string name="txt_068">11 follow 00\'s post.</string>
+    <string name="txt_069">00 likes your post.</string>
+    <string name="txt_070">11 mentioned 00.</string>
+    <string name="txt_071">00 commented your post.</string>
+    <string name="txt_072">Follow</string>
+    <string name="txt_073">Posts</string>
+    <string name="txt_074">Followers</string>
+    <string name="txt_075">Following</string>
+    <string name="txt_076">current events</string>
+    <string name="txt_077">see all of events</string>
+    <string name="txt_078">00\'s official account.</string>
+    <string name="txt_079">Unfollow 00?</string>
+    <string name="txt_080">Update your profile</string>
+    <string name="txt_081">Use Travelbook Camera</string>
+    <string name="txt_082">From your gallery</string>
+    <string name="txt_083">Remove your profile photo</string>
+    <string name="txt_084">Name</string>
+    <string name="txt_085">Introduce yourself</string>
+    <string name="txt_086">Webpages</string>
+    <string name="txt_087">Contry/Region</string>
+    <string name="txt_088">Enter Your E-mail Address</string>
+    <string name="txt_089">Phone number</string>
+    <string name="txt_090">Completed</string>
+    <string name="txt_091">Find your contacts</string>
+    <string name="txt_092">Invite your friends</string>
+    <string name="txt_093">Account</string>
+    <string name="txt_094">Update your profile</string>
+    <string name="txt_095">Change your password</string>
+    <string name="txt_096">People of 152 in your contacs use Travelbook</string>
+    <string name="txt_097">Follow Everyone</string>
+    <string name="txt_098">You Invited your friends</string>
+    <string name="txt_099">Invite your friends</string>
+    <string name="txt_100">Enter Your Current password</string>
+    <string name="txt_101">Enter Your New Password </string>
+    <string name="txt_102"> (at least 8 characters)</string>
+    <string name="txt_103">Enter Your New Password Again</string>
+    <string name="txt_104">Change your password</string>
+    <string name="txt_105">Your password is changed. Thank you.</string>
+    <string name="txt_106">Posts you like</string>
+    <string name="txt_107">Private Account</string>
+    <string name="txt_108">When your account is private, only people you approve can see your posts.</string>
+    <string name="txt_109">Is your account private?</string>
+    <string name="txt_110">Private Account</string>
+    <string name="txt_111">Delete your browsing history.</string>
+    <string name="txt_112">When you delete your browsing history, it will be permanetly removed. Delete your browsing histrory?</string>
+    <string name="txt_113">Remove</string>
+    <string name="txt_114">Log-out</string>
+    <string name="txt_115">Log-out TravelBook?</string>
+    <string name="txt_116">Logged-out of Travelbook. Thank you for using Travelbook.</string>
+    <string name="txt_117">Delete your Travelbook account</string>
+    <string name="txt_118">When you delete your account, your profile, photos, videos, comments, likes and followers will be permanetly removed. Delete your account?</string>
+    <string name="txt_119">Delete your Travelbook account</string>
+    <string name="txt_120">Your Travelbook account are deleted.</string>
+    <string name="txt_121">Report a Problem</string>
+    <string name="txt_122">Support</string>
+    <string name="txt_123">Travelbook Help Center</string>
+    <string name="txt_124">About Travelbook</string>
+    <string name="txt_125">Privacy Notice</string>
+    <string name="txt_126">Conditions of Use</string>
+    <string name="txt_127">Conditions of GPS ?</string>
+    <string name="txt_128">Settings</string>
+    <string name="txt_129">Linked settings</string>
+    <string name="txt_130">Connected accounts</string>
+    <string name="txt_131">Notifications</string>
+    <string name="txt_132">Push notifications</string>
+    <string name="txt_133">From Everyone</string>
+    <string name="txt_134">From People I follow</string>
+    <string name="txt_135">Off</string>
+    <string name="txt_136">Yon may set as \'Home first\'</string>
+    <string name="txt_137">Yon may set as \'Browsing first</string>
+    <string name="txt_138">Yon may set as \'Camera first</string>
+    <string name="txt_139">Yon may set as \'News first</string>
+    <string name="txt_140">Yon may set as \'Your Account first\'</string>
+    <string name="txt_141">Invite your friends!</string>
+    <string name="txt_142">check</string>
+
+    <string name="txt_143">팔로잉중</string>
+    <string name="txt_144">팔로잉 취소는 팔로잉리스트에서 가능합니다.</string>
+    <string name="txt_145">님을 팔로잉 하시겠습니까?</string>
+    <string name="txt_146">좋아요</string>
+    <string name="txt_147">님과 이미 친구 입니다.</string>
+    <string name="txt_148">다시 시도해 주세요</string>
+    <string name="txt_149">올바른 형식이 아닙니다.</string>
+    <string name="txt_150">회원가입을 취소 하시겠습니까?</string>
+    <string name="txt_151">이메일을 확인 바랍니다.</string>
+    <string name="txt_152">서비스 준비중 입니다.</string>
+    <string name="txt_153">연락처를 수집하고 있습니다.</string>
+    <string name="txt_154">새로운 비밀번호가 일치하지 않습니다.</string>
+    <string name="txt_155">모든 친구를 팔로잉 중 입니다.</string>
+    <string name="txt_156">댓글을 입력해주세요.</string>
+    <string name="txt_157">댓글을 삭제하시겠습니까?</string>
+    <string name="txt_158">즐겨찾기</string>
+    <string name="txt_159">네트워크가 활성화 되지 않았습니다.\n3G/4G 혹은 Wifi를 켜주시기 바랍니다.</string>
+    <string name="txt_160">게시하기</string>
+    <string name="txt_161">게시글 쓰기...</string>
+    <string name="txt_162">내용을 입력해 주세요.</string>
+    <string name="txt_163">이미지를 최소 1장 이상 선택해 주세요.</string>
+    <string name="txt_164">앱에서 내 위치 정보를 사용하려면, 단말기의 설정에서 위치서비스 사용을 허용해주세요.</string>
+    <string name="txt_165">설정하기</string>
+    <string name="txt_166">현재위치</string>
+    <string name="txt_167">Goolgle Play 서비스를 업데이트해 주세요.</string>
+    <string name="txt_168">시스템 설정에서 위치정보서비스(Wi-Fi, 모바일네트워크)를 사용하도록 설정해주세요.</string>
+    <string name="txt_169">현재 위치정보를 가져올 수 없습니다.</string>
+    <string name="txt_170">소개하는 글</string>
+    <string name="txt_171">신고할 대상이 없습니다.</string>
+
+    <string name="txt_172">Places</string>
+    <string name="txt_173">Add Location</string>
+
+    <string name="txt_174">Searching for \'0000\'</string>
+    <string name="txt_175">Near Current Location</string>
+
+    <string name="txt_176">Blocked Users</string>
+    <string name="txt_177">문제신고</string>
+    <string name="txt_178">공유하기</string>
+    <string name="txt_179">카카오톡 공유하기</string>
+    <string name="txt_180">Blocking user</string>
+
+    <string name="txt_181">Share</string>
+    <string name="txt_182">Kakao Share</string>
+    <string name="txt_183">Edit</string>
+    <string name="txt_184">Delete</string>
+
+    <string name="txt_185">본 게시물의 유저를 차단 하시겠습니까?</string>
+    <string name="txt_186">Comments</string>
+
+    <string name="txt_187">Done</string>
+    <string name="txt_188">Password must contain at least one uppercase, \nlowercase, number and special character.</string>
+
+    <string name="txt_189">Invite / Follow People</string>
+    <string name="txt_190">Facebook friends</string>
+    <string name="txt_191">Contacts</string>
+
+    <string name="txt_192">Customer Service</string>
+    <string name="txt_193">Private Information</string>
+    <string name="txt_194">Change Your Picture</string>
+
+    <string name="txt_195">새로고침</string>
+    <string name="txt_196">더보기</string>
+    <string name="txt_197">친구차단을 해제 하시겠습니까?</string>
+
+    <string name="txt_198">이름은 대소문자 2 ~ 20자 이내(숫자 가능, 공백없이)</string>
+    <string name="txt_199">이메일 형식으로 입력해 주세요.</string>
+    <string name="txt_200">비밀번호는 8~30자리.(공백없이 대소문자,숫자,특수문자 포함)</string>
+    <string name="txt_201">Copy</string>
+
+    <string name="txt_202">finish</string>
+    <string name="txt_203">again try</string>
+    <string name="txt_204">facebook</string>
+    <!--<string name="txt_205">이메일 형식으로 입력해 주세요.</string>-->
+    <string name="txt_206">사용하실 이름을 입력해 주세요.</string>
+    <string name="txt_207">이메일 주소를 입력해 주세요.</string>
+    <string name="txt_208">비밀번호를 입력해 주세요.</string>
+
+    <string name="txt_209">로그인 화면</string>
+    <string name="txt_210">으로</string>
+
+    <string name="txt_211">확인</string>
+    <string name="txt_212">전송하기</string>
+    <string name="txt_213">현재 위치 주변의 게시물</string>
+    <string name="txt_214">공백을 제거해 주세요.</string>
+    <string name="txt_215">이름을 입력해 주세요</string>
+    <string name="txt_216">영문으로 입력해 주세요.</string>
+    <string name="txt_217">취소</string>
+    <string name="txt_218">새로운 게시물을 등록하거나,\n좋아하는 친구를 팔로우 해보세요!</string>
+    <string name="txt_219">수정하기</string>
+    <string name="txt_220">삭제하기</string>
+    <string name="txt_221">점검 진행중입니다.</string>
+
+    <string name="txt_1000">새로운 여행지</string>
+    <string name="txt_1001"></string>
+    <string name="txt_1002">플러스 친구</string>
+    <string name="txt_1003"></string>
+    <string name="txt_1004">카카오톡 App이 설치되어 있지 않습니다.</string>
+    <string name="txt_1005">마이피플 App이 설치되어 있지 않습니다.</string>
+
+    <string name="txt_1006">다시 시도</string>
+    <string name="txt_1007">종료</string>
+    <string name="txt_1008">설정</string>
+    <string name="txt_1009">편집</string>
+    <string name="txt_1010">게시물</string>
+    <string name="txt_1011">팔로워</string>
+    <string name="txt_1012">팔로잉</string>
+    <string name="txt_1013">소식</string>
+    <string name="txt_1014">이벤트</string>
+
+
+    <string name="txt_2001">차단</string>
+
+
+    <string name="txtPrivacyNotice">개인정보처리방침 \n\n
+
+1. 개인정보의 처리 목적\n
+ (www.e-travelbook.com이하 \n
+ TRAVELBOOK) 은(는) 다음의 목적을 위하여 개인정보를 처리하고 있으며, 다음의 목적 이외의 용도로는 이용하지 않습니다.
+- 고객 가입의사 확인, 고객에 대한 서비스 제공에 따른 본인 식별.인증, 회원자격 유지.관리, 물품 또는 서비스 공급에 따른 금액 결제, 물품 또는 서비스의 공급.배송 등	\n\n
+
+2. 개인정보의 처리 및 보유 기간	 \n\n
+
+① (www.e-travelbook.com이하 \n
+TRAVELBOOK) 은(는) 정보주체로부터 개인정보를 수집할 때 동의 받은 개인정보 보유․이용기간 또는 법령에 따른 개인정보 보유․이용기간 내에서 개인정보를 처리․보유합니다.\n\n
+
+② 구체적인 개인정보 처리 및 보유 기간은 다음과 같습니다.\n
+☞ 아래 예시를 참고하여 개인정보 처리업무와 개인정보 처리업무에 대한 보유기간 및 관련 법령, 근거 등을 기재합니다.\n
+(예시)- 고객 가입 및 관리 : 서비스 이용계약 또는 회원가입 해지시까지, 다만 채권․채무관계 잔존시에는 해당 채권․채무관계 정산시까지\n
+- 전자상거래에서의 계약․청약철회, 대금결제, 재화 등 공급기록 : 5년	   \n\n
+
+3. 개인정보처리 위탁\n\n
+
+① (TRAVELBOOK)은(는) 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.	\n\n
+
+② (www.e-travelbook.com이하\n
+ TRAVELBOOK)은(는) 위탁계약 체결시 개인정보 보호법 제25조에 따라 위탁업무 수행목적 외 개인정보 처리금지, 기술적․관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리․감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다.\n\n
+
+③ 위탁업무의 내용이나 수탁자가 변경될 경우에는 지체없이 본 개인정보 처리방침을 통하여 공개하도록 하겠습니다.\n\n
+
+4. 정보주체의 권리,의무 및 그 행사방법 이용자는 개인정보주체로서 다음과 같은 권리를 행사할 수 있습니다.\n\n
+
+① 정보주체는 (사이트URL이하 사이트명) 에 대해 언제든지 다음 각 호의 개인정보 보호 관련 권리를 행사할 수 있습니다.\n\n
+1. 개인정보 열람요구\n
+2. 오류 등이 있을 경우 정정 요구\n
+3. 삭제요구	 \n
+4. 처리정지 요구	 \n
+5. 처리하는 개인정보의 항목 작성 	\n\n
+
+① (www.e-travelbook.com이하\n
+ TRAVELBOOK)은(는) 다음의 개인정보 항목을 처리하고 있습니다.\n\n
+
+- 필수항목 : 이메일, 비밀번호, 로그인ID, 위치정보\n
+- 선택항목 : 휴대전화번호, 성별, 서비스 이용 기록, 접속 로그, 쿠키, 접속 IP 정보\n\n
+
+6. 개인정보의 파기(TRAVELBOOK)은(는) 원칙적으로 개인정보 처리목적이 달성된 경우에는 지체없이 해당 개인정보를 파기합니다. 파기의 절차, 기한 및 방법은 다음과 같습니다.	\n\n
+
+-파기절차이용자가 입력한 정보는 목적 달성 후 별도의 DB에 옮겨져(종이의 경우 별도의 서류) 내부 방침 및 기타 관련 법령에 따라 일정기간 저장된 후 혹은 즉시 파기됩니다. 이 때, DB로 옮겨진 개인정보는 법률에 의한 경우가 아니고서는 다른 목적으로 이용되지 않습니다.-파기기한이용자의 개인정보는 개인정보의 보유기간이 경과된 경우에는 보유기간의 종료일로부터 5일 이내에, 개인정보의 처리 목적 달성, 해당 서비스의 폐지, 사업의 종료 등 그 개인정보가 불필요하게 되었을 때에는 개인정보의 처리가 불필요한 것으로 인정되는 날로부터 5일 이내에 그 개인정보를 파기합니다.	  \n\n
+
+7. 개인정보의 안전성 확보 조치 (TRAVELBOOK)은(는) 개인정보보호법 제29조에 따라 다음과 같이 안전성 확보에 필요한 기술적/관리적 및 물리적 조치를 하고 있습니다.	   \n\n
+
+1. 정기적인 자체 감사 실시\n
+개인정보 취급 관련 안정성 확보를 위해 정기적(분기 1회)으로 자체 감사를 실시하고 있습니다.\n\n
+
+2. 개인정보 취급 직원의 최소화 및 교육\n
+개인정보를 취급하는 직원을 지정하고 담당자에 한정시켜 최소화 하여 개인정보를 관리하는 대책을 시행하고 있습니다.	  \n\n
+
+3. 내부관리계획의 수립 및 시행	 \n
+개인정보의 안전한 처리를 위하여 내부관리계획을 수립하고 시행하고 있습니다.	 \n\n
+
+4. 해킹 등에 대비한 기술적 대책\n
+트레블러(TRAVELBOOK)은 해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유출 및 훼손을 막기 위하여 보안프로그램을 설치하고 주기적인 갱신·점검을 하며 외부로부터 접근이 통제된 구역에 시스템을 설치하고 기술적/물리적으로 감시 및 차단하고 있습니다.\n\n
+
+5. 접속기록의 보관 및 위변조 방지	\n
+개인정보처리시스템에 접속한 기록을 최소 6개월 이상 보관, 관리하고 있으며, 접속 기록이 위변조 및 도난, 분실되지 않도록 보안기능 사용하고 있습니다.	   \n\n
+
+6. 개인정보에 대한 접근 제한	 \n
+개인정보를 처리하는 데이터베이스시스템에 대한 접근권한의 부여,변경,말소를 통하여 개인정보에 대한 접근통제를 위하여 필요한 조치를 하고 있으며 침입차단시스템을 이용하여 외부로부터의 무단 접근을 통제하고 있습니다.	\n\n
+
+7. 문서보안을 위한 잠금장치 사용	\n
+개인정보가 포함된 서류, 보조저장매체 등을 잠금장치가 있는 안전한 장소에 보관하고 있습니다.	\n\n
+
+8. 비인가자에 대한 출입 통제	   \n
+개인정보를 보관하고 있는 물리적 보관 장소를 별도로 두고 이에 대해 출입통제 절차를 수립, 운영하고 있습니다.	 \n\n
+
+8. 개인정보 보호책임자 작성 	 \n\n
+
+① 트레블러(www.e-travelbook.com이하 TRAVELBOOK) 은(는) 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.	 \n\n
+
+▶ 개인정보 보호책임자\n
+성명 : 진철언\n
+직책 : 안드로이드담당\n
+직급 : 팀장\n
+연락처 : 010-3171-3621,\n
+Email : jinchi1@naver.com \n
+※ 개인정보 보호 담당부서로 연결됩니다.	 \n\n
+
+▶ 개인정보 보호 담당부서	\n
+부서명 : 서비스운영	\n
+담당자 : 진철언	  \n
+연락처 : 010-3171-3621,\n
+Email : jinchi1@naver.com	\n\n
+② 정보주체께서는 트레블러\n(www.e-travelbook.com이하 TRAVELBOOK) 의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의하실 수 있습니다.\n
+ 트레블러(www.e-travelbook.com이하\n
+  TRAVELBOOK) 은(는) 정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.	\n\n
+
+9. 개인정보 열람청구\n\n
+ ① 정보주체는 개인정보 보호법 제35조에 따른 개인정보의 열람 청구를 아래의 부서에 할 수 있습니다. (www.travelbookS2.com이하 TRAVELBOOK)은(는) 정보주체의 개인정보 열람청구가 신속하게 처리되도록 노력하겠습니다.	   \n\n
+
+▶ 개인정보 열람청구 접수·처리 부서	\n
+부서명 : 서비스운영	\n
+담당자 : 진철언	\n
+연락처 : 010-3171-3621,\n
+Email : jinchi1@naver.com\n\n
+
+② 정보주체께서는 제1항의 열람청구 접수․처리부서 이외에, 행정안전부의 개인정보보호 종합지원 포털 웹사이트(www.privacy.go.kr)를 통하여서도 개인정보 열람청구를 하실 수 있습니다.	 \n\n
+
+▶ 행정안전부 개인정보보호 종합지원 포털 → 개인정보 민원 → 개인정보 열람등 요구 (본인확인을 위하여 아이핀(I-PIN)이 있어야 함)	 \n\n
+
+10. 개인정보 열람청구	\n\n
+
+아래의 기관은 과는 별개의 기관으로서, (www.e-travelbook.com이하 TRAVELBOOK)의 자체적인 개인정보 불만처리, 피해구제 결과에 만족하지 못하시거나 보다 자세한 도움이 필요하시면 문의하여 주시기 바랍니다.	   \n\n
+
+11. 개인정보 처리방침 변경 	  \n\n
+
+①이 개인정보처리방침은 시행일로부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.\n\n
+▶ 개인정보 침해신고센터 (한국인터넷진흥원 운영)\n
+- 소관업무 : 개인정보 침해사실 신고, 상담 신청	 \n
+- 홈페이지 : privacy.kisa.or.kr	   \n
+- 전화 : (국번없이) 118	   \n
+- 주소 : (138-950) 서울시 송파구 중대로 135 한국인터넷진흥원 개인정보침해신고센터	\n\n
+
+▶ 개인정보 분쟁조정위원회 (한국인터넷진흥원 운영)	\n
+- 소관업무 : 개인정보 분쟁조정신청, 집단분쟁조정 (민사적 해결)\n
+- 홈페이지 : privacy.kisa.or.kr	   \n
+- 전화 : (국번없이) 118	   \n
+- 주소 : (138-950) 서울시 송파구 중대로 135 한국인터넷진흥원 개인정보침해신고센터\n\n
+
+▶ 대검찰청 사이버범죄수사단 : 02-3480-3573 (www.spo.go.kr)	\n
+▶ 경찰청 사이버범죄수사단 : 1566-0112 (www.netan.go.kr)	   </string>
+    <string name="txtConditionsOfGPS">위치기반서비스 이용약관\n\n
+
+제1장 총   칙\n\n
+
+제 1 조 (목적) 본 약관은 회원(트래블북 서비스 약관에 동의한 자를 말합니다. 이하 회원이라고 합니다.)이 글로비소프트주식회사(이하 회사라고 합니다.)이 제공하는 트래블북 서비스(이하 서비스라고 합니다)를 이용함에 있어 회사와 회원의 권리·의무 및 책임사항을 규정함을 목적으로 합니다.\n\n
+
+제 2 조 (이용약관의 효력 및 변경)\n
+  ①본 약관은 서비스를 신청한 고객 또는 개인위치정보주체가 본 약관에 동의하고 회사가 정한 소정의 절차에 따라 서비스의 이용자로 등록함으로써 효력이 발생합니다.\n
+  ②회원이 온라인에서 본 약관의 동의하기 버튼을 클릭하였을 경우 본 약관의 내용을 모두 읽고 이를 충분히 이해하였으며, 그 적용에 동의한 것으로 봅니다.\n
+  ③회사는 위치정보의 보호 및 이용 등에 관한 법률, 콘텐츠산업 진흥법, 전자상거래 등에서의 소비자보호에 관한 법률, 소비자기본법 약관의 규제에 관한 법률 등 관련법령을 위배하지 않는 범위에서 본 약관을 개정할 수 있습니다.\n
+  ④회사가 약관을 개정할 경우에는 기존약관과 개정약관 및 개정약관의 적용일자와 개정사유를 명시하여 현행약관과 함께 그 적용일자 10일 전부터 적용일 이후 상당한 기간 동안 공지만을 하고, 개정 내용이 회원에게 불리한 경우에는 그 적용일자 30일 전부터 적용일 이후 상당한 기간 동안 각각 이를 서비스 홈페이지에 게시하거나 회원에게 전자적 형태(전자우편, SMS 등)로 약관 개정 사실을 발송하여 고지합니다.\n 
+  ⑤회사가 전항에 따라 회원에게 통지하면서 공지 또는 공지∙고지일로부터 개정약관 시행일 7일 후까지 거부의사를 표시하지 아니하면 이용약관에 승인한 것으로 봅니다. 회원이 개정약관에 동의하지 않을 경우 회원은 이용계약을 해지할 수 있습니다.\n\n
+
+제 3 조 (관계법령의 적용)  본 약관은 신의성실의 원칙에 따라 공정하게 적용하며, 본 약관에 명시되지 아니한 사항에 대하여는 관계법령 또는 상관례에 따릅니다.\n\n
+
+제 4 조 (서비스의 내용)  회사가 제공하는 서비스는 아래와 같습니다.\n
+
+서비스 명 : Travelbook\n
+서비스 내용\n
+o 여행위치 공유\n
+o 여행기록 공유\n
+o 사진정보 공유\n\n
+
+제5조 (서비스의 가입)\n
+1. 회사는 아래와 같은 경우에는 이용자의 가입신청을 승낙하지 않을 수 있습니다.\n
+1) 실명이 아니거나 다른 사람의 명의를 사용하는 등 허위로 신청하는 경우\n
+2) 회원 등록 사항을 빠뜨리거나 잘못 기재하여 신청하는 경우\n
+3) 기타 회사가 정한 이용신청 요건을 충족하지 않았을 경우\n\n
+
+제6조 (서비스 이용요금)\n 
+  ①회사가 제공하는 서비스는 기본적으로 무료입니다. 단, 별도의 유료 서비스의 경우 해당 서비스에 명시된 요금을 지불하여야 사용 가능합니다.\n
+  ②회사는 유료 서비스 이용요금을 회사와 계약한 전자지불업체에서 정한 방법에 의하거나 회사가 정한 청구서에 합산하여 청구할 수 있습니다.\n
+  ③유료서비스 이용을 통하여 결제된 대금에 대한 취소 및 환불은 회사의 결제 이용약관 등 관계법에 따릅니다.\n
+  ④회원의 개인정보도용 및 결제사기로 인한 환불요청 또는 결제자의 개인정보 요구는 법률이 정한 경우 외에는 거절될 수 있습니다.\n
+  ⑤무선 서비스 이용 시 발생하는 데이터 통신료는 별도이며 가입한 각 이동통신사의 정책에 따릅니다.\n
+  ⑥MMS 등으로 게시물을 등록할 경우 발생하는 요금은 이동통신사의 정책에 따릅니다.\n\n
+
+제7조 (서비스내용변경 통지 등)\n
+  ①회사가 서비스 내용을 변경하거나 종료하는 경우 회사는 회원의 등록된 전자우편 주소로 이메일을 통하여 서비스 내용의 변경 사항 또는 종료를 통지할 수 있습니다.\n
+  ②①항의 경우 불특정 다수인을 상대로 통지를 함에 있어서는 웹사이트 등 기타 회사의 공지사항을 통하여 회원들에게 통지할 수 있습니다.\n\n
+ 
+제8조 (서비스이용의 제한 및 중지)\n
+  ①회사는 아래 각 호의 1에 해당하는 사유가 발생한 경우에는 회원의 서비스 이용을 제한하거나 중지시킬 수 있습니다.\n
+1. 회원이 회사 서비스의 운영을 고의 또는 중과실로 방해하는 경우\n
+2. 서비스용 설비 점검, 보수 또는 공사로 인하여 부득이한 경우\n
+3. 전기통신사업법에 규정된 기간통신사업자가 전기통신 서비스를 중지했을 경우\n
+4. 국가비상사태, 서비스 설비의 장애 또는 서비스 이용의 폭주 등으로 서비스 이용에 지장이 있는 때\n
+5. 기타 중대한 사유로 인하여 회사가 서비스 제공을 지속하는 것이 부적당하다고 인정하는 경우\n\n
+  ②회사는 전항의 규정에 의하여 서비스의 이용을 제한하거나 중지한 때에는 그 사유 및 제한기간 등을 회원에게 알려야 합니다.\n\n
+
+제9 조 (개인위치정보의 이용 또는 제공)\n
+  ①회사는 개인위치정보를 이용하여 서비스를 제공하고자 하는 경우에는 미리 이용약관에 명시한 후 개인위치정보주체의 동의를 얻어야 합니다.\n
+  ②회원 및 법정대리인의 권리와 그 행사방법은 제소 당시의 이용자의 주소에 의하며, 주소가 없는 경우에는 거소를 관할하는 지방법원의 전속관할로 합니다. 다만, 제소 당시 이용자의 주소 또는 거소가 분명하지 않거나 외국 거주자의 경우에는 민사소송법상의 관할법원에 제기합니다.\n
+  ③회사는 타사업자 또는 이용 고객과의 요금정산 및 민원처리를 위해 위치정보 이용·제공․사실 확인자료를 자동 기록·보존하며, 해당 자료는 6개월간 보관합니다.\n
+  ④회사는 개인위치정보를 회원이 지정하는 제3자에게 제공하는 경우에는 개인위치정보를 수집한 당해 통신 단말장치로 매회 회원에게 제공받는 자, 제공일시 및 제공목적을 즉시 통보합니다. 아래 각 호의 1에 해당하는 경우에는 회원이 미리 특정하여 지정한 통신 단말장치 또는 전자우편주소로 통보합니다.\n
+1. 개인위치정보를 수집한 당해 통신단말장치가 문자, 음성 또는 영상의 수신기능을 갖추지 아니한 경우\n
+2. 회원이 온라인 게시 등의 방법으로 통보할 것을 미리 요청한 경우\n
+ ⑤여행 기록 공유를 위해서 기본적으로 다른 회원에게 제공됩니다\n\n
+
+제10조 (개인위치정보주체의 권리)\n
+  ①회원은 회사에 대하여 언제든지 개인위치정보를 이용한 위치기반서비스 제공 및 개인위치정보의 제3자 제공에 대한 동의의 전부 또는 일부를 철회할 수 있습니다. 이 경우 회사는 수집한 개인위치정보 및 위치정보 이용, 제공사실 확인자료를 파기합니다.\n
+  ②회원은 회사에 대하여 언제든지 개인위치정보의 수집, 이용 또는 제공의 일시적인 중지를 요구할 수 있으며, 회사는 이를 거절할 수 없고 이를 위한 기술적 수단을 갖추고 있습니다.\n
+  ③회원은 회사에 대하여 아래 각 호의 자료에 대한 열람 또는 고지를 요구할 수 있고, 당해 자료에 오류가 있는 경우에는 그 정정을 요구할 수 있습니다. 이 경우 회사는 정당한 사유 없이 회원의 요구를 거절할 수 없습니다.\n
+1. 본인에 대한 위치정보 수집, 이용, 제공사실 확인자료\n
+2. 본인의 개인위치정보가 위치정보의 보호 및 이용 등에 관한 법률 또는 다른 법률 규정에 의하여 제3자에게 제공된 이유 및 내용\n
+  ④회원은 제1항 내지 제3항의 권리행사를 위해 회사의 소정의 절차를 통해 요구할 수 있습니다.\n\n
+
+제11조 (법정대리인의 권리) \n
+  ①회사는 14세 미만의 회원에 대해서는 개인위치정보를 이용한 위치기반서비스 제공 및 개인위치정보의 제3자 제공에 대한 동의를 당해 회원과 당해 회원의 법정대리인으로부터 동의를 받아야 합니다. 이 경우 법정대리인은 제9조에 의한 회원의 권리를 모두 가집니다.\n
+  ②회사는 14세 미만의 아동의 개인위치정보 또는 위치정보 이용․제공사실 확인자료를 이용약관에 명시 또는 고지한 범위를 넘어 이용하거나 제3자에게 제공하고자 하는 경우에는 14세미만의 아동과 그 법정대리인의 동의를 받아야 합니다. 단, 아래의 경우는 제외합니다.\n
+1. 위치정보 및 위치기반서비스 제공에 따른 요금정산을 위하여 위치정보 이용, 제공사실 확인자료가 필요한 경우\n
+2. 통계작성, 학술연구 또는 시장조사를 위하여 특정 개인을 알아볼 수 없는 형태로 가공하여 제공하는 경우\n\n
+
+제12조 (8세 이하의 아동 등의 보호의무자의 권리) \n
+  ①회사는 아래의 경우에 해당하는 자(이하 8세 이하의 아동등이라 한다)의 보호의무자가 8세 이하의 아동 등의 생명 또는 신체보호를 위하여 개인위치정보의 이용 또는 제공에 동의하는 경우에는 본인의 동의가 있는 것으로 봅니다.\n
+1. 8세 이하의 아동\n
+2. 금치산자\n
+3. 장애인복지법제2조제2항제2호의 규정에 의한 정신적 장애를 가진 자로서장애인고용촉진및직업재활법 제2조제2호의 규정에 의한 중증장애인에 해당하는 자(장애인복지법 제29조의 규정에 의하여 장애인등록을 한 자에 한한다)\n
+ ②8세 이하의 아동 등의 생명 또는 신체의 보호를 위하여 개인위치정보의 이용 또는 제공에 동의를 하고자 하는 보호의무자는 서면동의서에 보호의무자임을 증명하는 서면을 첨부하여 회사에 제출하여야 합니다.\n
+ ③보호의무자는 8세 이하의 아동 등의 개인위치정보 이용 또는 제공에 동의하는 경우 개인위치정보주체 권리의 전부를 행사할 수 있습니다.\n\n
+
+제13조 (위치정보관리책임자의 지정)\n
+  ①회사는 위치정보를 적절히 관리․보호하고 개인위치정보주체의 불만을 원활히 처리할 수 있도록 실질적인 책임을 질 수 있는 지위에 있는 자를 위치정보관리책임자로 지정해 운영합니다. \n
+  ②위치정보관리책임자는 위치기반서비스를 제공하는 부서의 부서장으로서 구체적인 사항은 본 약관의 부칙에 따릅니다.\n\n
+
+제14조 (손해배상) \n
+  ①회사가 위치정보의 보호 및 이용 등에 관한 법률 제15조 내지 제26조의 규정을 위반한 행위로 회원에게 손해가 발생한 경우 회원은 회사에 대하여 손해배상 청구를 할 수 있습니다. 이 경우 회사는 고의, 과실이 없음을 입증하지 못하는 경우 책임을 면할 수 없습니다.\n
+  ②회원이 본 약관의 규정을 위반하여 회사에 손해가 발생한 경우 회사는 회원에 대하여 손해배상을 청구할 수 있습니다. 이 경우 회원은 고의, 과실이 없음을 입증하지 못하는 경우 책임을 면할 수 없습니다.\n\n
+
+제15조 (면책) \n
+  ①회사는 다음 각 호의 경우로 서비스를 제공할 수 없는 경우 이로 인하여 회원에게 발생한 손해에 대해서는 책임을 부담하지 않습니다.\n
+1. 천재지변 또는 이에 준하는 불가항력의 상태가 있는 경우\n
+2. 서비스 제공을 위하여 회사와 서비스 제휴계약을 체결한 제3자의 고의적인 서비스 방해가 있는 경우\n
+3. 회원의 귀책사유로 서비스 이용에 장애가 있는 경우\n
+4. 제1호 내지 제3호를 제외한 기타 회사의 고의∙과실이 없는 사유로 인한 경우\n
+
+  ②회사는 서비스 및 서비스에 게재된 정보, 자료, 사실의 신뢰도, 정확성 등에 대해서는 보증을 하지 않으며 이로 인해 발생한 회원의 손해에 대하여는 책임을 부담하지 아니합니다.\n\n
+
+제16조 (규정의 준용) \n
+  ①본 약관은 대한민국법령에 의하여 규정되고 이행됩니다.\n
+  ②본 약관에 규정되지 않은 사항에 대해서는 관련법령 및 상관습에 의합니다.\n\n
+
+제17조 (분쟁의 조정 및 기타) \n
+  ①회사는 위치정보와 관련된 분쟁에 대해 당사자간 협의가 이루어지지 아니하거나 협의를 할 수 없는 경우에는 위치정보의 보호 및 이용 등에 관한 법률 제28조의 규정에 의한 방송통신위원회에 재정을 신청할 수 있습니다.\n
+  ②회사 또는 고객은 위치정보와 관련된 분쟁에 대해 당사자간 협의가 이루어지지 아니하거나 협의를 할 수 없는 경우에는 개인정보보호법 제43조의 규정에 의한 개인정보분쟁조정위원회에 조정을 신청할 수 있습니다.\n\n
+
+제18조 (010-8511-5082) 회사의 상호 및 주소 등은 다음과 같습니다.\n
+  1. 상    호 : 글로비소프트주식회사\n
+  2. 대 표 자 : 김 주영\n
+  3. 주    소 : 서울시 서초구 법원로 2길 19 원동빌딩 2층 \n
+  4. 대표전화 : 010-9003-0000\n\n
+
+부  칙\n\n
+
+제1조 (시행일) 이 약관은 2017년 12월 8일 부터 시행한다.\n
+제2조 위치정보관리책임자는 2017년 12월을 기준으로 다음과 같이 지정합니다.\n
+  1. 소  속 : 트레블러 서버 총괄부\n
+  2. 연락처 : 010-3171-3621</string>
+    <string name="title_activity_atv_setting">AtvSetting</string>
+    <string name="image_provider">com.travelbooks3.android.provider</string>
+
+</resources>

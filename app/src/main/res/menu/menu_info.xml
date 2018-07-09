@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.travelbooks2.com.travelbook_2.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/user_home_setup"
+        android:title="@string/txt_1008"
+        app:showAsAction="always" />
+</menu>

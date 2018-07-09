@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Y-Photo Picker</string>
+
+    <string name="y_photopicker_image_select_title">사진 선택</string>
+    <string name="y_photopicker_delete">삭제</string>
+    <string name="y_photopicker_effect">편집</string>
+    <string name="y_photopicker_done">완료</string>
+    <string name="y_photopicker_done_with_count">완료(%1$d/%2$d)</string>
+    <string name="y_photopicker_image_index">%1$d/%2$d</string>
+    <string name="y_photopicker_undo">취소</string>
+    <string name="y_photopicker_deleted_a_photo">사진이 삭제되었습니다.</string>
+    <string name="y_photopicker_confirm_to_delete">삭제 하시겠어요?</string>
+    <string name="y_photopicker_yes">확인</string>
+    <string name="y_photopicker_cancel">취소</string>
+    <string name="y_photopicker_all_image">모든 이미지</string>
+    <string name="y_photopicker_over_max_count_tips">최대 %1$d 개만 선택하실 수 있어요 :(</string>
+    <string name="y_photopicker_image_count">%1$d</string>
+
+    <!-- ucrop -->
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_label_edit_photo">Edit Photo</string>
+    <string name="ucrop_menu_crop">Crop</string>
+    <string name="ucrop_error_input_data_is_absent">Both input and output Uri must be specified</string>
+</resources>

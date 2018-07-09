@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:id="@+id/friend_lay"
+    android:focusable="false"
+    android:focusableInTouchMode="false">
+
+    <RelativeLayout
+        android:padding="3dp"
+        android:layout_width="68dp"
+        android:layout_height="77dp">
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="77dp"
+            android:src="@drawable/home_partner"
+            android:id="@+id/friend_profile_img"
+            android:scaleType="centerCrop"
+            />
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="77dp"
+            android:background="@drawable/profile_image_prame_white"/>
+    </RelativeLayout>
+
+ <TextView
+        android:id="@+id/friend_name"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        tools:text="추천 사용자 1"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:textColor="@color/color_3f3f3f"/>
+
+</LinearLayout>

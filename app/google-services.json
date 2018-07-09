@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "728511051103",
+    "firebase_url": "https://travelbook2-74a80.firebaseio.com",
+    "project_id": "travelbook2-74a80",
+    "storage_bucket": "travelbook2-74a80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728511051103:android:8dc821306280462d",
+        "android_client_info": {
+          "package_name": "com.travelbooks3.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728511051103-cs6euafg1a9mbep7k8ns6hd0u5t11r55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6t_i1V_vBg3_S_3gArxQawFVp7I6X_-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
